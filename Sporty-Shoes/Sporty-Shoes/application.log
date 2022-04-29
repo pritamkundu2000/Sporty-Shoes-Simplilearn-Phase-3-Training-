@@ -1,0 +1,66 @@
+2022-04-30 01:26:04.439  INFO 10248 --- [main] c.s.workshop.SportyShoesApplication      : Starting SportyShoesApplication on LAPTOP-GRRSB1LJ with PID 10248 (C:\Users\user\Desktop\SimplilearnTraining\Phase3-DevOps\Sporty-Shoes\Sporty-Shoes\target\classes started by user in C:\Users\user\Desktop\SimplilearnTraining\Phase3-DevOps\Sporty-Shoes\Sporty-Shoes)
+2022-04-30 01:26:04.445  INFO 10248 --- [main] c.s.workshop.SportyShoesApplication      : No active profile set, falling back to default profiles: default
+2022-04-30 01:26:05.324  INFO 10248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:26:05.404  INFO 10248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 2 JPA repository interfaces.
+2022-04-30 01:26:05.979  INFO 10248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2022-04-30 01:26:05.991  INFO 10248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-30 01:26:05.992  INFO 10248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-04-30 01:26:06.195  INFO 10248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-30 01:26:06.196  INFO 10248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1687 ms
+2022-04-30 01:26:06.236  INFO 10248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-30 01:26:06.527  INFO 10248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-30 01:26:06.536  INFO 10248 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2022-04-30 01:26:06.690  INFO 10248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:26:06.747  INFO 10248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2022-04-30 01:26:06.903  INFO 10248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-04-30 01:26:07.049  INFO 10248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-30 01:26:07.796  INFO 10248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:26:07.804  INFO 10248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:26:07.943  WARN 10248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:26:08.645  INFO 10248 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cfc0c48, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b8bdcc6, org.springframework.security.web.header.HeaderWriterFilter@740c4868, org.springframework.security.web.authentication.logout.LogoutFilter@49122853, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@8af1c49, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24a3d414, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@df7d1d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59d5c537, org.springframework.security.web.session.SessionManagementFilter@29c59b6e, org.springframework.security.web.access.ExceptionTranslationFilter@4070ace9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f7336b2]
+2022-04-30 01:26:08.752  INFO 10248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-30 01:26:09.764  INFO 10248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2022-04-30 01:26:09.766  INFO 10248 --- [main] c.s.workshop.SportyShoesApplication      : Started SportyShoesApplication in 5.761 seconds (JVM running for 6.6)
+2022-04-30 01:26:25.680  INFO 10248 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:26:25.680  INFO 10248 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:26:25.691  INFO 10248 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-04-30 01:26:27.177  INFO 10248 --- [http-nio-4000-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 306 ms
+2022-04-30 01:28:56.292  INFO 10248 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-30 01:28:56.294  INFO 10248 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-30 01:28:56.296  INFO 10248 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:28:56.296  INFO 10248 --- [RMI TCP Connection(6)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-30 01:28:56.305  INFO 10248 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-30 01:28:56.307  INFO 10248 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-30 01:29:00.685  INFO 4300 --- [main] c.s.workshop.SportyShoesApplication      : Starting SportyShoesApplication on LAPTOP-GRRSB1LJ with PID 4300 (C:\Users\user\Desktop\SimplilearnTraining\Phase3-DevOps\Sporty-Shoes\Sporty-Shoes\target\classes started by user in C:\Users\user\Desktop\SimplilearnTraining\Phase3-DevOps\Sporty-Shoes\Sporty-Shoes)
+2022-04-30 01:29:00.689  INFO 4300 --- [main] c.s.workshop.SportyShoesApplication      : No active profile set, falling back to default profiles: default
+2022-04-30 01:29:01.562  INFO 4300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-30 01:29:01.641  INFO 4300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 2 JPA repository interfaces.
+2022-04-30 01:29:02.215  INFO 4300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2022-04-30 01:29:02.227  INFO 4300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-30 01:29:02.227  INFO 4300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-04-30 01:29:02.387  INFO 4300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-30 01:29:02.388  INFO 4300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1645 ms
+2022-04-30 01:29:02.429  INFO 4300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-30 01:29:02.710  INFO 4300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-30 01:29:02.718  INFO 4300 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2022-04-30 01:29:02.873  INFO 4300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-30 01:29:02.930  INFO 4300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2022-04-30 01:29:03.082  INFO 4300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-04-30 01:29:03.230  INFO 4300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-30 01:29:03.967  INFO 4300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-30 01:29:03.975  INFO 4300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:29:04.167  WARN 4300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-30 01:29:04.894  INFO 4300 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3355168, org.springframework.security.web.context.SecurityContextPersistenceFilter@24a3d414, org.springframework.security.web.header.HeaderWriterFilter@1a6dc5ea, org.springframework.security.web.authentication.logout.LogoutFilter@5d6b42cf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@75dc1c1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bdcfcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55638165, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f07930a, org.springframework.security.web.session.SessionManagementFilter@6b8bdcc6, org.springframework.security.web.access.ExceptionTranslationFilter@740c4868, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52433946]
+2022-04-30 01:29:05.037  INFO 4300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-30 01:29:05.959  INFO 4300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2022-04-30 01:29:05.961  INFO 4300 --- [main] c.s.workshop.SportyShoesApplication      : Started SportyShoesApplication in 5.699 seconds (JVM running for 6.607)
+2022-04-30 01:29:11.398  INFO 4300 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-30 01:29:11.398  INFO 4300 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-30 01:29:11.406  INFO 4300 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-04-30 01:29:12.774  INFO 4300 --- [http-nio-4000-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 296 ms
+2022-04-30 01:53:15.055  INFO 4300 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-30 01:53:15.058  INFO 4300 --- [RMI TCP Connection(27)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-30 01:53:15.058  INFO 4300 --- [RMI TCP Connection(27)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-30 01:53:15.059  INFO 4300 --- [RMI TCP Connection(27)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-30 01:53:15.068  INFO 4300 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-30 01:53:15.070  INFO 4300 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
